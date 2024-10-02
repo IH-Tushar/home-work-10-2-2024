@@ -6,7 +6,7 @@ let saraBroughtApple = 15;
 
 let totalApple = saraHadApple + saraBroughtApple;
 
-console.log(totalApple);
+console.log("The ans is:" + totalApple);
 
 // জেনের কাছে ৫০০টাকা ছিল। সে মুদির দোকানে ২০০টাকা খরচ করেছে। এখন জেনের কাছে কত টাকা বাকি আছে?
 let jenerHadMoney = 500;
@@ -15,7 +15,7 @@ let jenerSpentMoney = 200;
 
 let moneyLeft = jenerHadMoney - jenerSpentMoney;
 
-console.log(moneyLeft);
+console.log("The ans is:" + moneyLeft);
 
 // একটি কারখানা প্রতি ঘণ্টায় ২০টি মেশিন তৈরি করে। ৮ ঘণ্টায় কারখানাটি মোট কতটি মেশিন তৈরি করবে?
 
@@ -25,7 +25,7 @@ let hours = 8;
 
 let totalMachinery = machineryPerHour * hours;
 
-console.log( totalMachinery);
+console.log("The ans is:" + totalMachinery);
 
 // একটি বাগানে প্রতি সারিতে ৮টি গাছ আছে এবং ১০টি সারি আছে। বাগান মালিক আরও ২০টি গাছ লাগানোর পরিকল্পনা করেছেন। সব মিলিয়ে বাগানে কতটি গাছ থাকবে?
 let treePerRow = 8;
@@ -42,7 +42,7 @@ if (treePlanToAdd) {
     console.log(totalTreeAfterAdding);
 }
 else{
-    console.log(nowtotalTree);
+    console.log("The ans is:" + nowtotalTree);
 }
 
 
@@ -58,7 +58,7 @@ let donateOrange = 1;
 
 let orangeAfterDonate = orange - donateOrange;
 
-console.log(orangeAfterDonate);
+console.log("The ans is:" + orangeAfterDonate);
 
 
 // একটি ট্রেন ১৫০ কিলোমিটার পথ অতিক্রম করতে ২ ঘণ্টা সময় নেয়। প্রতি ঘণ্টায় ট্রেন কত কিলোমিটার পথ অতিক্রম করে?
@@ -69,7 +69,7 @@ let time = 2;
 
 let trainPerHour = train / time;
 
-console.log(trainPerHour);
+console.log("The ans is:" + trainPerHour);
 
 // একটি ফ্যাক্টরি ৫টি মেশিন ব্যবহার করে প্রতিদিন ২০০টি পণ্য তৈরি করে। আরও ৫টি মেশিন যোগ করলে কত পণ্য উৎপাদন হবে, এবং যদি পণ্যের চাহিদা না থাকে, অবিক্রিত পণ্য কতটি?
 let machineHas = 5;
@@ -83,10 +83,10 @@ let addedNewMachine = 5;
 let totalProductAfterAdding = totalProduct + addedNewMachine * produceProductPerDay;
 
 if (addedNewMachine) {
-    console.log(totalProductAfterAdding);
+    console.log("The ans is:" + totalProductAfterAdding);
 }
 else{
-    console.log(totalProduct);
+    console.log("The ans is:" + totalProduct);
 }
 
 // একটি দোকানের ৩টি চকলেট প্যাকেটে ৬টি চকলেট থাকে। সব প্যাকেট পূর্ণ করার পর দোকানদারের কাছে কতটি চকলেট অবশিষ্ট থাকবে?
